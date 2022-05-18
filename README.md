@@ -1,0 +1,2 @@
+# StakingLocked
+This Project builds on top of GeorgeStaking and implements locked staking and deflationary rewards. In order to achieve this, I use an enum to show the phase of the rewards, a struct to store the time together with the amount, and internal functions to mint the costum ERC20 token on demand.
